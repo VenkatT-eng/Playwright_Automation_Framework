@@ -1,2 +1,3 @@
 Hello this is my test file
 this is next line
+This is line for diff
