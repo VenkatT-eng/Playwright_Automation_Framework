@@ -68,6 +68,7 @@ def test_invalid_user_login(page):
 
 
 @pytest.mark.sanity
+@pytest.mark.regression
 def test_valid_user_login(page):
     """
     Automated Test Case: Verify that login succeeds for valid user credentials.
