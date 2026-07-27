@@ -1,3 +1,5 @@
 Hello this is my test file
 this is next line
 This is line for diff
+
+This is line is for the diff b/w working dir and last commit
