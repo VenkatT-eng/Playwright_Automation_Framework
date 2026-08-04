@@ -1,7 +1,0 @@
-Hellow automation qa
-
-1. Perform feasibility testing
-2. Identify the TC for automation
-3. Provide Test efforts
-4. Prepare test scripts
-5. Execute, and Generate Reports.
