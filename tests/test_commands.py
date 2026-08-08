@@ -59,10 +59,9 @@ def test_commands(playwright: Playwright):
 
 
     ##Scrolling
-
     page.get_by_role("button").click()
-
     page.get_by_text("Footer Text").scroll_into_view_if_needed()
+
 
 
 
