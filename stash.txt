@@ -1,1 +1,28 @@
-Hello Dev this stash test
+
+Saving Changes
+git stash — Saves tracked changes and cleans the working directory.
+git stash push -m "your message" — Saves changes with a descriptive label.
+git stash -u — Includes untracked files (newly created files) in the stash
+
+Restoring Changes
+git stash pop — Reapplies the most recent changes and deletes them from the stash stack.
+git stash apply — Reapplies the most recent changes but keeps them saved in the stash.
+git stash apply stash@{2} — Reapplies a specific older stash from your history
+
+
+Managing the Stack
+git stash list — Displays all stashed changes with their index numbers.
+git stash drop stash@{0} — Permanently deletes a specific stash.
+git stash clear
+
+ Common ScenarioIf you are half-done with a feature on feature-branch but need to jump to main to fix an urgent bug:bash# 1. Save your incomplete work
+
+git stash push -m "WIP on new feature"
+
+# 2. Switch branches and fix the bug
+git checkout main
+# ... fix bug and commit ...
+
+# 3. Return to your feature branch and resume
+git checkout feature-branch
+git stash pop
