@@ -26,3 +26,4 @@ git checkout main
 # 3. Return to your feature branch and resume
 git checkout feature-branch
 git stash pop
+********************************************************End of the file ************************************************
