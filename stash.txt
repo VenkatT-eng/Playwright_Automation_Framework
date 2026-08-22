@@ -1,4 +1,4 @@
-
+#Please save stash commands
 Saving Changes
 git stash — Saves tracked changes and cleans the working directory.
 git stash push -m "your message" — Saves changes with a descriptive label.
