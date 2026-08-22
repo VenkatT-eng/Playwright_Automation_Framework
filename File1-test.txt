@@ -4,4 +4,8 @@ This is file update from local repo
 
 This is 2nd file update from remote
 
+<<<<<<< Updated upstream
 This is 3rd file update from remote
+=======
+This is 2nd update from local repo
+>>>>>>> Stashed changes
